@@ -1,0 +1,289 @@
+<html><head><meta charset="utf-8"><title>Mini EDA - Calidad del Aire</title></head><body>
+<h1>Mini reporte EDA - Calidad del Aire (Castilla y León)</h1>
+<p><b>Filas:</b> 20000 &nbsp; <b>Columnas:</b> 11</p>
+<h2>Resumen estadístico</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Fecha</th>
+      <th>NO (ug/m3)</th>
+      <th>NO2 (ug/m3)</th>
+      <th>O3 (ug/m3)</th>
+      <th>PM10 (ug/m3)</th>
+      <th>SO2 (ug/m3)</th>
+      <th>Provincia</th>
+      <th>Estación</th>
+      <th>Latitud</th>
+      <th>Longitud</th>
+      <th>Posición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>20000</td>
+      <td>20000.000000</td>
+      <td>20000.000000</td>
+      <td>20000.000000</td>
+      <td>20000.000000</td>
+      <td>20000.000000</td>
+      <td>20000</td>
+      <td>20000</td>
+      <td>20000.000000</td>
+      <td>20000.000000</td>
+      <td>19976</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9</td>
+      <td>90</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>León</td>
+      <td>Renault3</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>41.6127777778,-4.74083333333</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>9097</td>
+      <td>484</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>484</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>2011-03-31 08:15:12.960000</td>
+      <td>6.556252</td>
+      <td>15.145586</td>
+      <td>54.826290</td>
+      <td>17.304663</td>
+      <td>5.991835</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>42.233772</td>
+      <td>-5.308552</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1997-01-09 00:00:00</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>39.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>38.938333</td>
+      <td>-6.781944</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>2006-09-28 00:00:00</td>
+      <td>2.000000</td>
+      <td>7.000000</td>
+      <td>52.619754</td>
+      <td>10.000000</td>
+      <td>3.000000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>41.661111</td>
+      <td>-6.515278</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>2011-07-10 12:00:00</td>
+      <td>4.000000</td>
+      <td>14.000000</td>
+      <td>52.619754</td>
+      <td>18.000000</td>
+      <td>5.000000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>42.558611</td>
+      <td>-5.533333</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>2016-02-17 00:00:00</td>
+      <td>10.000000</td>
+      <td>21.409154</td>
+      <td>57.000000</td>
+      <td>22.694662</td>
+      <td>9.092801</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>42.715556</td>
+      <td>-4.725278</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>2020-12-31 00:00:00</td>
+      <td>32.000000</td>
+      <td>45.000000</td>
+      <td>74.000000</td>
+      <td>40.000000</td>
+      <td>18.000000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>43.603333</td>
+      <td>-2.466667</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>NaN</td>
+      <td>6.130456</td>
+      <td>9.857562</td>
+      <td>7.233043</td>
+      <td>8.198515</td>
+      <td>3.923812</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.626471</td>
+      <td>1.138726</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Tipos de datos</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dtype</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Fecha</th>
+      <td>datetime64[ns]</td>
+    </tr>
+    <tr>
+      <th>NO (ug/m3)</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>NO2 (ug/m3)</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>O3 (ug/m3)</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>PM10 (ug/m3)</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>SO2 (ug/m3)</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>Provincia</th>
+      <td>category</td>
+    </tr>
+    <tr>
+      <th>Estación</th>
+      <td>category</td>
+    </tr>
+    <tr>
+      <th>Latitud</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>Longitud</th>
+      <td>float64</td>
+    </tr>
+    <tr>
+      <th>Posición</th>
+      <td>object</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Valores faltantes</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>NaN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Fecha</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NO (ug/m3)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NO2 (ug/m3)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>O3 (ug/m3)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>PM10 (ug/m3)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>SO2 (ug/m3)</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Provincia</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Estación</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Latitud</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Longitud</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Posición</th>
+      <td>24</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

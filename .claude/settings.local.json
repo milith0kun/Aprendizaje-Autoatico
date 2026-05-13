@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(python -c \"import pandas, numpy, matplotlib, seaborn; print\\('OK'\\)\")",
+      "Bash(ls *.csv)",
+      "Bash(ls encuestas*)",
+      "Bash(find . -maxdepth 3 -name \"encuestas*\")"
+    ]
+  }
+}
